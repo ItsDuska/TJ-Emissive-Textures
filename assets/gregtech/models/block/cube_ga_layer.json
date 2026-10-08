@@ -1,0 +1,11 @@
+{
+  "parent": "gregtech:block/cube_2_layer_bottom_top",
+  "textures": {
+    "bot_bottom": "#bottom",
+    "bot_top":    "#top",
+    "bot_side":   "#side",
+    "top_side":   "#bloom",
+    "top_top":    "gregtech:blocks/casings/coils/blank",
+    "top_bottom": "gregtech:blocks/casings/coils/blank"
+  }
+}

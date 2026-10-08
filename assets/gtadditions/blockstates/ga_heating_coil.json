@@ -1,0 +1,154 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "gtadditions:ga_heating_coil",
+    "textures": {
+      "bottom": "gregtech:blocks/rendering_error",
+      "top": "gregtech:blocks/rendering_error",
+      "side": "gregtech:blocks/rendering_error"
+    }
+  },
+  "variants": {
+    "active=false,variant=titan_steel_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uhv"
+        }
+      }
+    ],
+    "active=true,variant=titan_steel_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+         "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uhv",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uhv_bloom"
+        }
+      }
+    ],
+    "active=false,variant=pikyonium_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uev"
+        }
+      }
+    ],
+    "active=true,variant=pikyonium_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uev",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uev_bloom"
+        }
+      }
+    ],
+    "active=false,variant=black_titanium_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uiv"
+  
+        }
+      }
+    ],
+    "active=true,variant=black_titanium_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uiv",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uiv_bloom"
+        }
+      }
+    ],
+    "active=false,variant=neutronium_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.umv"
+        }
+      }
+    ],
+    "active=true,variant=neutronium_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.umv",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.umv_bloom"
+        }
+      }
+    ],
+    "active=false,variant=cosmic_neutronium_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uxv"
+        }
+      }
+    ],
+    "active=true,variant=cosmic_neutronium_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uxv",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.uxv_bloom"
+        }
+      }
+    ],
+    "active=false,variant=infinity_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.infinity"
+        }
+      }
+    ],
+    "active=true,variant=infinity_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.infinity",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.infinity_bloom"
+        }
+      }
+    ],
+    "active=false,variant=eternity_coil": [
+      {
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.eternity"
+        }
+      }
+    ],
+    "active=true,variant=eternity_coil": [
+      {
+        "model": "gtadditions:ga_heating_coil_bloom",
+        "textures": {
+          "bottom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "top": "gregtech:blocks/casings/solid/heating_coil/heating.coil.top.bottom",
+          "side": "gregtech:blocks/casings/solid/heating_coil/heating.coil.eternity",
+          "bloom": "gregtech:blocks/casings/solid/heating_coil/heating.coil.eternity_bloom"
+        }
+      }
+    ]
+  }
+}
