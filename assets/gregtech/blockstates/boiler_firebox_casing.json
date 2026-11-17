@@ -32,7 +32,7 @@
         "textures": {
           "bottom": "gregtech:blocks/casings/solid/machine_casing_stable_titanium",
           "top": "gregtech:blocks/casings/solid/machine_casing_stable_titanium",
-          "side": "gregtech:blocks/casings/firebox/machine_casing_fire_box_titanium",
+          "side": "gregtech:blocks/casings/firebox/machine_casing_firebox_titanium",
           "side_active": "gregtech:blocks/casings/firebox/machine_casing_firebox_titanium_active",
           "side_emissive": "gregtech:blocks/casings/firebox/machine_casing_firebox_titanium_active_bloom"
         }
